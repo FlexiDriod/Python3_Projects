@@ -1,7 +1,4 @@
-
 from rich import print
-
-
 class ToDoList:
     def __init__(self):
         self.all_tasks = {} 
@@ -27,7 +24,7 @@ class ToDoList:
             print("\n[bright_red][bold]No tasks found.[/bright_red][/bold]")
 
 def main():
-    todo_list = ToDoList()
+    todo_list = ToDoList() 
     
     while True:
         print("\n_____________________________")
@@ -42,7 +39,7 @@ def main():
             
         if choice == '1':
            
-            print("\n[bold][bright_green]Task description:-[/bright_green][/bold][blue3](Press '[bold]ctrl+d[/bold]' to finish)[/blue3]\n")
+            print("\n[bold][bright_green]Task description:-[/bright_green][/bold]\n")
             description = input()
             todo_list.add_task(description)
                 
