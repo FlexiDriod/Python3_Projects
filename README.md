@@ -47,8 +47,10 @@ ________________________________________________________________________________
         Check if there are tasks, in the dictionary (not empty).
         If tasks exist, display a header and iterate over them, showcasing its number, description, and completion status (red for incomplete, yellow for complete).
         If no tasks are present, a red message indicates an empty list.
+        
 ☑ Exit:
 
         Check if the chosen option is "exit".
         If true, display a message and terminate the program.
+        
 ____________________________________________________________________________________________________________________________________________________________________________
